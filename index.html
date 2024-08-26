@@ -10,14 +10,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    
     <style>
         .manrope-font {
     font-family: "Manrope", sans-serif;
     }
+    .section-3 {
+      background-image: url("images/bg.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
     </style>
     
 </head>
-<body class="manrope-font">
+<body class="manrope-font bg-[#f4f4f4] lg:bg-white">
     <header class="px-[30px] py-[25px] lg:px-[125px] lg:py-[50px] bg-gradient-to-b from-[#f4f4f4] to-[#fdfdfd]">
       <!-- Nav section start -->
         <nav class="flex items-center justify-center">
@@ -195,14 +201,14 @@
             featuring weathered wood, sleek metal accents.</p>
         </div>
         <div class="flex flex-col gap-5 lg:flex-row mt-6">
-          <div class="card lg:card-side shadow-sm border-2 border-[#ededed] px-5 py-5">
+          <div class="card lg:card-side shadow-sm border-2 border-[#ededed] px-5 py-5 bg-white">
             <figure>
-              <img class="h-52 rounded-xl max-w-96"
+              <img class="h-52 w-96 rounded-xl"
                 src="images/img1.png"
                 alt="Movie" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title">Commercial</h2>
+              <h2 class="card-title font-extrabold text-2xl">Commercial</h2>
               <p class="">The barn house captivates with its blend of rustic charm
                 and modern. The barn house captivates with its blend of
                 rustic charm and modern .</p>
@@ -214,30 +220,30 @@
             </div>
           </div>
         
-          <div class="card shadow-sm border-2 border-[#ededed] p-5">
+          <div class="card shadow-sm border-2 border-[#ededed] p-5 bg-white">
             <figure class="h-full">
-              <img class="h-64"
+              <img class="h-64 w-96"
                 src="images/img2.png"
                 alt="Movie" />
             </figure>
           </div>
         </div>
         <div class="flex flex-col gap-5 lg:flex-row mt-5">
-          <div class="card shadow-sm border-2 border-[#ededed] p-5">
+          <div class="card shadow-sm border-2 border-[#ededed] p-5 bg-white">
             <figure class="h-full">
-              <img class="h-64"
+              <img class="h-64 w-96"
                 src="images/img3.png"
                 alt="Movie" />
             </figure>
           </div>
-          <div class="card lg:card-side shadow-sm border-2 border-[#ededed] px-5 py-5">
+          <div class="card lg:card-side shadow-sm border-2 border-[#ededed] px-5 py-5 bg-white">
             <figure>
-              <img class="h-52 rounded-xl max-w-96"
+              <img class="h-52 w-96 rounded-xl"
                 src="images/img4.png"
                 alt="Movie" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title">Commercial</h2>
+              <h2 class="card-title font-extrabold text-2xl">Commercial</h2>
               <p class="">The barn house captivates with its blend of rustic charm
                 and modern. The barn house captivates with its blend of
                 rustic charm and modern .</p>
@@ -249,9 +255,9 @@
             </div>
           </div>
         
-          <div class="card shadow-sm border-2 border-[#ededed] p-5">
+          <div class="card shadow-sm border-2 border-[#ededed] p-5 bg-white">
             <figure class="h-full">
-              <img class="h-64"
+              <img class="h-64 w-96"
                 src="images/img5.png"
                 alt="Movie" />
             </figure>
@@ -259,7 +265,47 @@
         </div>
       </section>
       <!-- Main section-2 End -->
-      
+       <!-- Main section-3 start -->
+      <section class="section-3 m-2 px-10 grid justify-center" >
+        <div class="flex items-center justify-center lg:justify-center my-10">
+          <a class="btn rounded-[50px] bg-[#eefcdf] content-center "> <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-[#2e3624]">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg> <p>Let’s Connect</p></a>
+        </div>
+        <div>
+          <h1 class="font-extrabold text-[40px] text-center">Let’s Discuss Next Project</h1>
+          <p class="font-medium text-[16px] text-center">The barn house captivates with its blend of rustic charm and modern sophistication,
+            featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <form action="#">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 font-medium text-[16] text-[#a0a0a0] my-8">
+          <input type="text" placeholder="First Name*" class="input input-bordered w-full rounded-[40px] py-7" />
+          <input type="text" placeholder="Last Name*" class="input input-bordered w-full  rounded-[40px] py-7" />
+          <input type="number" placeholder="Phone Number*" class="input input-bordered w-full  rounded-[40px] py-7" />
+          <input type="email" placeholder="Email ID" class="input input-bordered w-full  rounded-[40px] py-7" />
+          <textarea  class="textarea lg:col-span-2 h-56" placeholder="Write your message here"></textarea>
+          <a class="btn rounded-[50px] bg-[#97f131] px-12 py-12 lg:py-6 content-center lg:px-6 lg:col-span-2"> <h3 class="font-extrabold text-xl">Send Email</h3> <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 bg-[#1c1c1c] rounded-[50%] text-[#ffffff] -rotate-45">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg></a>
+          </div>
+          
+        </form>
+        
+      </section>
+      <!-- Main section-3 End -->
     </main>
+    <footer>
+<section class="text-[#1c1c1c]">
+  <div class="grid justify-center">
+    <div class="flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 bg-[#abef5f] rounded-[50%] -rotate-45">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+        </svg>
+        
+      <h1 class="text-[28px] font-extrabold lg:text-5xl text-white ">Rinterio</h1>
+    </div>
+  </div>
+</section>
+    </footer>
 </body>
 </html>
